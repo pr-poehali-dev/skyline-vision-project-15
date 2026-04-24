@@ -1,0 +1,17 @@
+{
+  "tests": [
+    {
+      "name": "GET stats returns 200",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 200
+    },
+    {
+      "name": "POST result returns 200",
+      "method": "POST",
+      "path": "/",
+      "body": { "score": 50, "percent": 48 },
+      "expectedStatus": 200
+    }
+  ]
+}

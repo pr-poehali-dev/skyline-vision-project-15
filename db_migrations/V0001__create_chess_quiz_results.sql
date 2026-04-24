@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS chess_quiz_results (
+  id SERIAL PRIMARY KEY,
+  score INTEGER NOT NULL,
+  percent INTEGER NOT NULL,
+  created_at TIMESTAMP DEFAULT NOW()
+);
